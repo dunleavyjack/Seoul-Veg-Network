@@ -1,13 +1,19 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from '../pages/Home';
+import HomePage from '../pages/HomePage';
+import BrowsePage from '../pages/BrowsePage';
+import Navbar from '../components/Navbar';
 
 class AppRouter extends React.Component {
     render() {
         return (
-            <BrowserRouter>
-                <Route path="/" component={Home} exact={true} />
-            </BrowserRouter>
+            <>
+                <Navbar />
+                <BrowserRouter>
+                    <Route path="/" component={HomePage} exact={true} />
+                    <Route path="/browse" component={BrowsePage} />
+                </BrowserRouter>
+            </>
         );
     }
 }
