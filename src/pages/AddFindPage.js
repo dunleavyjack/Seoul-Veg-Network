@@ -46,6 +46,7 @@ const AddFindPage = () => {
         // </div>
         <div>
             <Header text={'Add a find'} />
+            <Header text={'The latest'} />
         </div>
     );
 };
