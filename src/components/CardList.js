@@ -2,13 +2,19 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = () => {
+    const name = 'name';
+    const price = 'price';
+    const tag = 'vegetarian';
+    const location = 'location';
+    const date = 'today';
+
     return (
         <div class="container">
             <div class="d-flex bricklayer justify-content-start">
                 <Card
                     name={'find'}
                     price={'5.90'}
-                    tag={'Vegan'}
+                    tag={'Vegetarian'}
                     location={'Emart24'}
                     date={'12/3/21'}
                 />

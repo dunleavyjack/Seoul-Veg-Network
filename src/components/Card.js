@@ -2,10 +2,10 @@ import React from 'react';
 
 const Card = ({ name, price, tag, location, date }) => {
     return (
-        <div className="card acard m-2 all-card">
+        <div className="card acard m-2" style={{ width: 18 + 'rem' }}>
             <img
                 src="https://www.beyondmeat.com/wp-content/uploads/BeyondBurger_PKG_Render_734x553-1-1.png"
-                className="card-img-top"
+                className="card-img-top img-fluid"
                 alt="..."
             />
             <div className="card-body">
