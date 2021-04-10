@@ -2,10 +2,6 @@
 /* blue: rgb(85,78,246)  */
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: url('./assets/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
