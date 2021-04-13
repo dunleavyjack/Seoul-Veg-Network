@@ -5,7 +5,7 @@ import CardListTest from '../components/CardListTest';
 const BrowsePage = () => {
     return (
         <>
-            <Header text={'Browse finds'} />
+            <Header text={'The Latest'} />
             <CardListTest />
         </>
     );

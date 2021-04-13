@@ -4,6 +4,12 @@ const Footer = () => {
     return (
         <footer class="d-flex align-items-center justify-content-center">
             <p class="text-muted mt-3">
+                Want to support this project? Buy me a &#127840;
+                <a href="https://ko-fi.com/jackjoseph"> here </a>
+                :)
+            </p>
+
+            {/* <p class="text-muted mt-3">
                 Made with love by
                 <a href="/https://github.com/dunleavyjack"> @jack </a>
                 <span class="d-xs-inline d-s-inline d-m-inline d-lg-none d-xl-none">
@@ -15,7 +21,7 @@ const Footer = () => {
                     <a href="https://ko-fi.com/jackjoseph"> here </a>
                     :)
                 </span>
-            </p>
+            </p> */}
         </footer>
     );
 };
