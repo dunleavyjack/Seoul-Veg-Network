@@ -10,7 +10,7 @@ const CardList = () => {
 
     return (
         <div class="container">
-            <div class="d-flex bricklayer justify-content-start">
+            <div>
                 <Card
                     name={'find'}
                     price={'5.90'}

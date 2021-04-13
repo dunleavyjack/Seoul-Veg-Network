@@ -50,64 +50,10 @@ body {
     color: white;
 }
 
-/* /////////////////////////////////////////////////////////////////// */
-/* squiggle */
-/* a {
-    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 3px 3px;
-    text-decoration: none;
-  }
-  
-a:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: 0 100%;
-    background-size: auto 6px;
-    background-repeat: repeat-x;
-    text-decoration: none;
-  } */
-
-/* /////////////////////////////////////////////////////////////////// */
-
-/* .border-success {
-    border-width: 3px !important;
-}
-
-.border-warning {
-    border-width: 3px !important;
-} */
-
-/* .browse-header {
-    background-color: green;
-} */
-
-/* .nav-link{
-    color: rgb(85,78,246) !important;
-}
-
-.nav-title{
-    color: rgb(90,197,122) !important;
-} */
-/* .brand-text {
-    font-weight: 1000;
-} */
-
-/* .modal-heading{
-    color: #C7ECEE !important;
-} */
-
-.fb-btn {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    margin: 5px 0;
-    opacity: 0.85;
-    display: inline-block;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration: none; /* remove underline from anchors */
+.t {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
 }
 
 .fb-btn:hover {
@@ -120,17 +66,8 @@ a:hover {
     height: auto;
 }
 
-/* footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:55px;
-    background-color: black;
-    color: white !important;
- } */
-
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 3rem;
@@ -182,6 +119,61 @@ a {
     color: darkgrey;
 }
 
-.all-card {
-    width: 20px;
+.card {
+    max-width: 20rem !important;
+}
+
+/* breweries styles */
+.breweries {
+    padding: 1rem;
+}
+
+.breweries > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    list-style-type: none;
+    padding: 0rem;
+}
+
+.breweries > ul > li {
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+}
+
+.breweries > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: relative;
+}
+
+.breweries > ul > li > figure > img {
+    width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption > h3 {
+    color: white;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.breweries > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem 0.75rem;
+    color: #666666;
+}
+
+.breweries > ul > li > a {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
 }
