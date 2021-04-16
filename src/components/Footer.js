@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer class="d-flex align-items-center justify-content-center">
             <p class="text-muted mt-3">
-                Want to support this project? Buy me a &#127840;
+                Support this project and buy me a &#127840;
                 <a href="https://ko-fi.com/jackjoseph"> here </a>
                 :)
             </p>

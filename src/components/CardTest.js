@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardTest = () => {
+const CardTest = ({ name, tag }) => {
     return (
         <>
             <li>
@@ -10,14 +10,13 @@ const CardTest = () => {
                         alt="Vegetarian find"
                     />
                     <figcaption>
-                        <h3>Beyond burger</h3>
+                        <h3>{name}</h3>
                     </figcaption>
                 </figure>
-                <p>
-                    Made in the interiors of collapsing stars star stuff
-                    harvesting star light venture billions upon billions Drake
-                    Equation brain is the seed of intelligence?
-                </p>
+                <p>Emart 24 in Seongsu</p>
+                <p className="detail">Vegan burgers I found.</p>
+                <p className="location">Yongsan / Itaewon</p>
+                <h3 className="m-3">{tag}</h3>
             </li>
         </>
     );
