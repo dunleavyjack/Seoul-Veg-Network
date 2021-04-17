@@ -6,7 +6,7 @@ const CardListTest = () => {
         <section className="breweries container" id="breweries">
             <ul>
                 <CardTest name={'Beyond Burger'} tag={'Vegan'} />
-                <CardTest name={'Beyond Burger'} tag={'Vegetarian'} />
+                <CardTest name={'Vegan snacks'} tag={'Vegetarian'} />
                 <CardTest name={'Beyond Burger'} tag={'Vegan'} />
                 <CardTest name={'Beyond Burger'} tag={'Vegan'} />
             </ul>
