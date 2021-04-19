@@ -9,6 +9,7 @@ const CardListTest = () => {
                 <CardTest name={'Vegan snacks'} tag={'Vegetarian'} />
                 <CardTest name={'Beyond Burger'} tag={'Vegan'} />
                 <CardTest name={'Beyond Burger'} tag={'Vegan'} />
+                <CardTest name={'Not meat'} tag={'Vegan'} />
             </ul>
         </section>
     );
