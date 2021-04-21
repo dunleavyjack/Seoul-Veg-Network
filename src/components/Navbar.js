@@ -26,9 +26,6 @@ const Navbar = () => {
                     id="navbarNavAltMarkup"
                 >
                     <div className="navbar-nav ml-auto">
-                        <a className="nav-link" href="/browse">
-                            Browse Finds
-                        </a>
                         <a className="nav-link" href="/addfinds">
                             Add A Find
                         </a>

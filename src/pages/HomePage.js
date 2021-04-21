@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
+import CardListTest from '../components/CardListTest';
 
-const HomePage = () => {
+const BrowsePage = () => {
     return (
         <>
-            <Header text={'Home'} />
+            <Header text={'The Latest'} />
+            <CardListTest />
         </>
     );
 };
 
-export default HomePage;
+export default BrowsePage;

@@ -1,6 +1,10 @@
 /* peach: rgb(241,132,118) */
 /* blue: rgb(85,78,246)  */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-size: cover;
     background-color: #ececea;
