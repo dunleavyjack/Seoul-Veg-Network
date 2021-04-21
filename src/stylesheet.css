@@ -3,6 +3,7 @@
 
 body {
     background-size: cover;
+    background-color: #ececea;
 }
 
 .navbar {
@@ -123,56 +124,60 @@ a {
     max-width: 20rem !important;
 }
 
-/* breweries styles */
-.breweries {
-    padding: 1rem;
+/* finds styles */
+.finds {
+    padding: 2rem;
 }
 
-.breweries > ul {
+/* .find-body {
+    border-radius: 35px !important;
+} */
+
+.finds > ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     list-style-type: none;
     padding: 0rem;
 }
 
-.breweries > ul > li {
-    border: 1px solid #e2e2e2;
-    border-radius: 0.5rem;
+.finds > ul > li {
+    /* border: 1px solid #e2e2e2; */
+    border-radius: 35px;
+    background-color: white;
     /* max-width: 25rem; */
 }
 
-.breweries > ul > li > figure {
-    max-height: 220px;
+.finds > ul > li > figure {
+    height: 220px;
     overflow: hidden;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
     position: relative;
 }
 
-.breweries > ul > li > figure > img {
+.finds > ul > li > figure > img {
     width: 100%;
 }
 
-.breweries > ul > li > figure > figcaption {
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-}
-
-.breweries > ul > li > figure > figcaption > h3 {
+.finds > ul > li > figure > figcaption > h3 {
     color: white;
     padding: 0.75rem;
     font-size: 1.25rem;
 }
 
-.breweries > ul > li > p {
+.finds > ul > li > h2 {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+.finds > ul > li > p {
     font-size: 1rem;
     padding: 0.75rem;
 }
 
-.breweries > ul > li > h3 {
+.finds > ul > li > h3 {
     font-size: 1rem;
     padding: 0.75rem 1rem;
     color: white;
@@ -182,6 +187,32 @@ a {
     border-radius: 0.5rem;
 }
 
-.location {
-    color: rgb(243, 152, 62) !important;
+.find-price {
+    line-height: 0;
+    font-weight: bold;
 }
+
+.find-location {
+    color: rgb(243, 152, 62) !important;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.find-tag {
+    color: rgb(85, 78, 246);
+    padding: 0.75rem;
+    line-height: 0;
+}
+
+/* .image-border {
+    padding: 1rem;
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
