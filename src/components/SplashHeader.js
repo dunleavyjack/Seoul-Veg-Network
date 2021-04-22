@@ -1,5 +1,6 @@
 import React from 'react';
-import wave from '../assets/wave.png';
+// import wave from '../assets/wave.png';
+import greenWave from '../assets/greenwave.png';
 
 const SplashHeader = () => {
     return (
@@ -13,10 +14,21 @@ const SplashHeader = () => {
                     <h1 className={'bold gray'}>
                         Veg Network <span className="yellow">|</span> Seoul
                     </h1>
-                    <h3>The best vegan and vegetarian finds in the city.</h3>
+                    <h5>The best vegan and vegetarian finds in the city.</h5>
+                    <a
+                        href="/auth/facebook"
+                        className={'fb fb-btn text-center'}
+                    >
+                        <i className={'fa fa-facebook fa-fw'}></i> Continue with
+                        Facebook
+                    </a>
+                    <br />
+                    <button type={'button'} className={'btn btn-dark m-2 gray'}>
+                        Browse finds
+                    </button>
                 </div>
             </div>
-            <img className={'wave'} src={wave} />
+            <img className={'wave'} src={greenWave} />
         </>
     );
 };

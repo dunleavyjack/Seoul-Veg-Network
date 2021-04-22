@@ -6,7 +6,7 @@ const Navbar = () => {
             <div className="container">
                 <a className="navbar-brand nav-title brand-text" href="/">
                     Veg Network <span className="yellow">|</span> Seoul{' '}
-                    <span className="text-info">
+                    <span className="green">
                         {'{'}BETA{'}'}
                     </span>
                 </a>
@@ -26,6 +26,9 @@ const Navbar = () => {
                     id="navbarNavAltMarkup"
                 >
                     <div className="navbar-nav ml-auto">
+                        <a className="nav-link" href="/browse">
+                            Browse All Finds
+                        </a>
                         <a className="nav-link" href="/addfinds">
                             Add A Find
                         </a>

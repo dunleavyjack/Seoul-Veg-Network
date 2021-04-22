@@ -7,10 +7,8 @@ import Overview from '../components/Overview';
 const BrowsePage = () => {
     return (
         <>
-            <SplashHeader />
-            <Overview />
-            {/* <Header text={'The Latest'} />
-            <CardListTest /> */}
+            <Header text={'The Latest'} />
+            <CardListTest />
         </>
     );
 };
