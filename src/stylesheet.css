@@ -227,3 +227,7 @@ a {
     position: relative;
     top: -2px;
 }
+
+.gray {
+    color: #ececea !important;
+}

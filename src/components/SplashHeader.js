@@ -10,7 +10,7 @@ const SplashHeader = () => {
                 }
             >
                 <div className={'text-center'}>
-                    <h1 className={'bold'}>
+                    <h1 className={'bold gray'}>
                         Veg Network <span className="yellow">|</span> Seoul
                     </h1>
                     <h3>The best vegan and vegetarian finds in the city.</h3>
