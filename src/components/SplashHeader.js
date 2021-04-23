@@ -15,13 +15,7 @@ const SplashHeader = () => {
                         Veg Network <span className="yellow">|</span> Seoul
                     </h1>
                     <h5>The best vegan and vegetarian finds in the city.</h5>
-                    <a
-                        href="/auth/facebook"
-                        className={'fb fb-btn text-center'}
-                    >
-                        <i className={'fa fa-facebook fa-fw'}></i> Continue with
-                        Facebook
-                    </a>
+
                     <br />
                     <button type={'button'} className={'btn btn-dark m-2 gray'}>
                         Browse finds
